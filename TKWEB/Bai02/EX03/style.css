@@ -1,0 +1,49 @@
+*{
+    font-family: sans-serif;
+}
+body{
+  font-size: 15px;
+}
+/* Header **/
+header{
+ padding-left: 12px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ border-bottom: 3px solid aqua;
+ background:url(https://media4.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e474quo70igpowpvv3qbt730di8lzb4burq23zxj48f&rid=giphy.gif&ct=g) no-repeat;
+ background-size: cover;
+ color: white;
+ border-top-left-radius: 12px;
+ border-top-right-radius: 12px;
+}
+nav {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 500px;
+    margin-top: -50px;
+}
+ li{
+    display: inline-block;
+    width: 130px;
+}
+ ul{
+    list-style: none;
+}
+ a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 2px solid aqua;
+    padding-bottom: 5px;
+    color: aqua;
+}
+footer{
+  padding: 20px;
+  text-align: center;
+  background-color: aqua;
+  border-top: 2px solid black ;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-size: 20px;
+}
